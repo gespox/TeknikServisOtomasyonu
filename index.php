@@ -9,6 +9,7 @@
 <!doctype html>
 <html lang="tr">
 <head>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -29,23 +30,24 @@
         </div>
 
         <div id="login1" class="login-tekniker">
-
+            <span onclick="document.getElementById('login1').style.display='none'" class="close" title="Pencereyi Kapat">&times;</span>
 
             <form class="form-tekniker" action="">
 
 
                 <div class="container-form">
-                    <span onclick="document.getElementById('login1').style.display='none'" class="close" title="Pencereyi Kapat">&times;</span>
+                    <h2>Tekniker Girişi</h2>
+                    <hr>
                     <label for="uname"><b>Kullanıcı Adı</b></label>
                     <input type="text" placeholder="Kullanıcı Adınızı Girin" name="uname" required>
 
                     <label for="psw"><b>Password</b></label>
                     <input type="password" placeholder="Şifrenizi Giriniz" name="psw" required>
 
-                    <button class="btn login" type="submit">Giris Yap</button>
-                    <div class="container-form" style="background-color:#f1f1f1">
-                        <button type="button" onclick="document.getElementById('login1').style.display='none'" class="btn cancel">Cancel</button>
-                        <span class="psw">Forgot <a href="#">password?</a></span>
+
+                    <div class="container-btn">
+                        <button type="button" onclick="document.getElementById('login1').style.display='none'" class="btn cancel">İptal</button>
+                        <button class="btn login" type="submit">Giriş Yap</button>
                     </div>
                 </div>
 

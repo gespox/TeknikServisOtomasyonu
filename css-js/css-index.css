@@ -10,7 +10,7 @@ body{
 #left-div{
     width: 50%;
     height: 100vh;
-    background: rgba(64, 64, 122,0.8);
+    background: rgba(200, 107, 6, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ body{
 #right-div{
     width: 50%;
     height: 100vh;
-    background: rgba(33, 140, 116,0.8);
+    background: rgba(29, 140, 65, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,6 +56,8 @@ body{
 
 }
 .img-left{
+    left: 0;
+    top: 0;
     position: absolute;
     z-index: -1;
     width: 50%;
@@ -64,6 +66,8 @@ body{
 
 }
 .img-right{
+    top: 0;
+    right: 0;
     position: absolute;
     z-index: -1;
     width: 50%;
@@ -93,14 +97,17 @@ input[type=text], input[type=password] {
     padding-top: 60px;
 }
 
-.container-form {
+.form-tekniker {
     background-color: #fefefe;
-    margin: 2% auto 2% auto; /* 5% from the top, 15% from the bottom and centered */
+    margin: 10% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
     width: 50%; /* Could be more or less, depending on screen size */
+    padding: 20px;
 }
 .close {
     position: absolute;
+    right: 20%;
+    top: 10%;
     font-size: 40px;
     font-weight: bold;
     color: #f1f1f1;
@@ -118,20 +125,29 @@ input[type=text], input[type=password] {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
+    /*border-radius: 12px;*/
 }
 .btn:hover{
     opacity: 0.8;
 }
-.container-form{
-    padding: 20px;
+.login{
+    border-bottom-right-radius:12px;
+    border-top-right-radius: 12px;
 }
 .cancel{
-    width: auto;
+    border-bottom-left-radius:12px;
+    border-top-left-radius: 12px;
+    width: 50%;
     padding: 10px 18px;
     background-color: #f44336;
 }
+
 span.psw {
     float: right;
     padding-top: 16px;
+}
+.container-btn{
+    display: flex;
+
 }
