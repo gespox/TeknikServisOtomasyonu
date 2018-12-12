@@ -1,0 +1,17 @@
+#cihaz {
+    border-collapse: collapse;
+    width: 100%;
+}
+#cihaz td, #cihaz th {
+    border: 1px solid #a9a9a9;
+    padding: 8px;
+}
+#cihaz th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #1abc9c;
+
+    color: #2c3e50;
+    text-decoration: underline;
+}

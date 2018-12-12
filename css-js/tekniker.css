@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Open Sans';
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+div#header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 6%;
+    background-color: #2c3e50;
+    margin: 0 auto;
+}
+.bilgiler{
+    color: #ffffff;
+    display: flex;
+    align-items: baseline;
+}
+.bilgiler span{
+    padding: 0px 10px;
+}
+.bilgiler button{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.logo{
+    float: left;
+    margin-top: .2ex;
+    margin-left: 10px;
+}
+
+.logo a {
+    font-size: 1.6em;
+    color: #fff;
+}
+
+.logo a span {
+    font-weight: 300;
+}
+
+div#container {
+    height: 92%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.sidebar {
+    width: 200px;
+    height: 150%;
+    background: #171717;
+    float: left;
+}
+
+ul#nav{
+
+}
+
+ul#nav li {
+    list-style: none;
+    height:10px;
+}
+ul#nav li a {
+    color: white;
+    display: flex;
+    align-items:center;
+    padding: 10px;
+    font-size: 0.9em;
+    width:100%;
+    float: left;
+    border-bottom: 1px solid #444;
+}
+ul#nav li a img{
+    margin-right: 15px;
+}
+ul#nav li a:hover {
+    background: #030303;
+    color: #fff;
+}
+.content {
+    width: auto;
+    height: auto;
+    background: #b2bec3;
+    margin-left: 200px;
+    padding: 15px;
+}
+div#box {
+    margin-top: 15px;
+}
+div#box .box-top {
+    color: #fff;
+    text-shadow: 0 1px #000;
+    background: #3498db;
+    padding: 5px 5px 5px 15px;
+    font-weight: 300;
+}
+div#box .box-panel {
+    background: #fff;
+    color: #333;
+}

@@ -1,0 +1,24 @@
+body{
+    background: #355C7D;
+    background: -webkit-linear-gradient(to right, #355c7d, #6C5B7B, #c06c84);
+    background: linear-gradient(to right, #355c7d, #6C5B7B, #c06c84);
+    font-family: 'Ubuntu', sans-serif;
+}
+#tablo {
+    border-collapse: collapse;
+    width: 100%;
+}
+#tablo td, #tablo th {
+    border: 1px solid #858585;
+    padding: 8px;
+}
+#tablo tr{background-color: #f2f2f2;}
+
+#tablo th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: #1abc9c;
+    color: black;
+    text-decoration: underline;
+}
