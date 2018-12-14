@@ -21,7 +21,7 @@ if(isset($_SESSION['uname'])){
     <div id="container">
         <?php include "sidebar.php"; ?>
         <div class="content">
-            <?php include "contentmarka.php"; ?>
+            <?php include "contentcihaz.php"; ?>
         </div>
     </div>
     <!-- #container -->

@@ -46,9 +46,8 @@ if(isset($_POST['girisbtn']))
      }
     else//Eğer girilen bilgiler eşleşmiyorsa
     {
-        echo "Kullanıcı Adınız veya Şifreniz Yanlış";//Hatamızı Cevabını Yazdırdık.
-        $message = "Kullanıcı Adınız veya Şifreniz Yanlış";
-        echo "<script type='text/javascript'>alert('$message');</script>";
+        $alert = "Kullanıcı Adınız veya Şifreniz Yanlış";
+        echo "<script type='text/javascript'>alert('$alert');</script>";
     }
 }
 
