@@ -17,11 +17,10 @@
         </tr>
     <?php
      require_once "../baglan.php";
-            $liste = $conn->query(" SELECT * FROM servis INNER JOIN musteri ON 
-     musteri.id=servis.musteriid INNER JOIN 
-     marka ON servis.markaid=marka.id INNER JOIN cihaz ON marka.id=cihaz.markaid", PDO::FETCH_ASSOC);
+            $liste = $conn->query(" SELECT * FROM servis INNER JOIN musteri ON musteri.idmusteri=servis.musteriid 
+                                    INNER JOIN cihaz ON servis.cihazid=cihaz.idcihaz
+                                    INNER JOIN marka ON servis.markaid=marka.idmarka",PDO::FETCH_ASSOC);
                 foreach ($liste as $row) {
-
                     echo "<tr>";
                     echo "<td>" . $row["ad"] . "</td>";
                     echo "<td>" . $row["soyad"] . "</td>";

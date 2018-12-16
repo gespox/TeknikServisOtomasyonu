@@ -21,11 +21,9 @@ if(isset($_SESSION['uname'])){
     <div id="container">
         <?php include "sidebar.php"; ?>
         <div class="content">
-            <?php include "contentmarka.php"; ?>
+            <?php include "contentservis.php"; ?>
         </div>
     </div>
-    <!-- #container -->
-
     </body>
     </html>
     <?php

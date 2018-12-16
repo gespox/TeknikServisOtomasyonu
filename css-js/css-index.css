@@ -106,7 +106,7 @@ input[type=text], input[type=password],input[type=tel] {
     outline: none;
 }
 .form-container .btn {
-    background-color: #4CAF50;
+    background-color: #3498db;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -116,7 +116,7 @@ input[type=text], input[type=password],input[type=tel] {
     opacity: 0.8;
 }
 .form-container .cancel {
-    background-color: red;
+    background-color: #e74c3c;
 }
 .form-container .btn:hover {
     opacity: 1;
@@ -146,7 +146,7 @@ input[type=text], input[type=password],input[type=tel] {
     outline: none;
 }
 .form-container1 .btn1 {
-    background-color: #4CAF50;
+    background-color: #3498db;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -156,7 +156,7 @@ input[type=text], input[type=password],input[type=tel] {
     opacity: 0.8;
 }
 .form-container1 .cancel1 {
-    background-color: red;
+    background-color: #e74c3c;
 }
 .form-container1 .btn1:hover {
     opacity: 1;

@@ -9,7 +9,7 @@
     </tr>
     <?php
     require_once "../baglan.php";
-    $liste = $conn->query(" SELECT * FROM cihaz INNER JOIN marka on cihaz.markaid=marka.id", PDO::FETCH_ASSOC);
+    $liste = $conn->query(" SELECT * FROM cihaz INNER JOIN marka on cihaz.markaid=marka.idmarka", PDO::FETCH_ASSOC);
     foreach ($liste as $row) {
 
         echo "<tr>";

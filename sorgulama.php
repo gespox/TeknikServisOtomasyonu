@@ -31,7 +31,7 @@
      require_once "baglan.php";
         if(isset($_GET['tel'])) {
             $tel = $_GET['tel'];
-            $liste = $conn->query("Select * from servis INNER JOIN musteri ON musteri.id=servis.musteriid", PDO::FETCH_ASSOC);
+            $liste = $conn->query("Select * from servis INNER JOIN musteri ON musteri.idmusteri=servis.musteriid", PDO::FETCH_ASSOC);
             $sorgu=0;
                 foreach ($liste as $row) {
                     if ($row["telefon"] == $tel) {

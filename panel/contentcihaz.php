@@ -6,7 +6,7 @@
     </tr>
     <?php
     require_once "../baglan.php";
-    $liste = $conn->query(" SELECT * FROM cihaz INNER JOIN marka on cihaz.markaid=marka.id", PDO::FETCH_ASSOC);
+    $liste = $conn->query(" SELECT * FROM cihaz INNER JOIN marka on cihaz.markaid=marka.idmarka", PDO::FETCH_ASSOC);
     foreach ($liste as $row) {
 
         echo "<tr>";
@@ -28,7 +28,7 @@
             $liste1 = $conn->query(" SELECT * FROM marka");
             $result=$liste1->fetchAll();
             foreach ($result as $row){
-                echo "<option  value='".$row['id']."'>".$row['markaadi']."</option>";
+                echo "<option  value='".$row['idmarka']."'>".$row['markaadi']."</option>";
             }
             ?>
         </select>

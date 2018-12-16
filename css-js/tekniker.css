@@ -8,6 +8,7 @@
 html,body {
     font-family: 'Open Sans';
     height: 100%;
+    background: #171717;
 }
 
 a {
@@ -67,7 +68,7 @@ div#container {
 
 .sidebar {
     width: 200px;
-    height: 150%;
+    height: 100%;
     background: #171717;
     float: left;
 }
@@ -108,11 +109,10 @@ div#box {
     margin-top: 15px;
 }
 div#box .box-top {
-    color: #fff;
-    text-shadow: 0 1px #000;
-    background: #3498db;
+    color: #202e40;
+    background: #35aaef;
     padding: 5px 5px 5px 15px;
-    font-weight: 300;
+
 }
 div#box .box-panel {
     background: #fff;

@@ -1,8 +1,12 @@
+html,body {
+    font-family: 'Open Sans';
+}
 body{
     background: #355C7D;
     background: -webkit-linear-gradient(to right, #355c7d, #6C5B7B, #c06c84);
     background: linear-gradient(to right, #355c7d, #6C5B7B, #c06c84);
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 #tablo {
     border-collapse: collapse;
@@ -12,13 +16,16 @@ body{
     border: 1px solid #858585;
     padding: 8px;
 }
-#tablo tr{background-color: #f2f2f2;}
+#tablo tr{
+    background-color: #f2f2f2;
+    color:black;
+}
 
 #tablo th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background: #1abc9c;
+    background: #74caf5;
     color: black;
     text-decoration: underline;
 }
