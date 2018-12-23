@@ -30,6 +30,6 @@ if(isset($_SESSION['uname'])){
 }
 else{
     include "../yonlendirme.php";
-    yonlendir('..index.php');
+    yonlendir('../index.php');
 }
 ?>

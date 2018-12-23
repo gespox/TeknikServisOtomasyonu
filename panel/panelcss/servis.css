@@ -88,8 +88,7 @@ input[type=submit]:hover {
 #formservisduzenle {
     margin-top: 15px;
     width:50%;
-
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 20px 20px 2px;
 }

@@ -3,7 +3,7 @@
 </div>
 <div class="bilgiler">
     <span>  <?php echo "Tekniker: ". $_SESSION["ad"]." ".$_SESSION["soyad"]." " ; ?></span>
-    <form action="cikis.php">
-        <button id="cikisbtn" name="cikisbtn"> Çıkış Yap</button>
+    <form id="cikisbtn" action="cikis.php">
+        <button id="cikisbtn" name="cikisbtn"><img src="../img/cik.svg" width="24" height="24" > Çıkış Yap</button>
     </form>
 </div>

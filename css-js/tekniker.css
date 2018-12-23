@@ -39,11 +39,13 @@ div#header {
     padding: 3px 8px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-size: 15px;
     margin: 4px 2px;
     cursor: pointer;
 }
+
 .logo{
     float: left;
     margin-top: .2ex;
