@@ -2,7 +2,8 @@
     <table id="marka">
         <tr >
             <th>Markalar</th>
-
+            <th>Duzenle</th>
+            <th>Sil</th>
         </tr>
         <?php
         require_once "../baglan.php";
@@ -10,7 +11,10 @@
         foreach ($liste as $row) {
 
             echo "<tr>";
-            echo "<td>" . $row["markaadi"] . "</td>";
+            echo "<td style=\"width:80%\">" . $row["markaadi"] . "</td>";
+            echo "<td><a href="."duzenlemarka.php?id=".$row["idmarka"]." <button class=\"buttonduzenle\" >Duzenle</button></a></td>";
+
+            echo "<td><a href="."silmarka.php?id=".$row["idmarka"]." <button onclick=\"return confirm('Silmek istiyor musun?'); \" class=\"buttonsil\" >Sil</button></a></td>";
             echo "<tr>";
         }
         ?>

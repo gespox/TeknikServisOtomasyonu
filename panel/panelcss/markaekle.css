@@ -14,7 +14,7 @@ html,body {
 }
 #marka td, #marka th {
     border: 1px solid #a9a9a9;
-    padding: 8px;
+    padding: 8px 8px 8px 20px;
 }
 #marka tr{
     background-color: #f2f2f2;
@@ -40,7 +40,28 @@ input[type=text]{
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+.buttonduzenle{
+    background-color: #e7aa55;
+    color: white;
+    padding: 3px 3px;
+    margin:0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonsil{
+    background-color: #fa4847;
+    color: white;
+    padding: 3px 25px;
+    margin:0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonsil:hover,.buttonduzenle:hover{
+    color: black;
+    opacity: 0.8;
+}
 input[type=submit] {
     width: 100%;
     background-color: #3498db;
@@ -55,11 +76,25 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #3498db;
 }
-
+#ortala{
+    margin: 0;
+    height: 100vh;
+    background: #aadad3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 #form {
     margin-top: 20px;
-    width:100%;
+    width:50%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+#formduzenlemarka {
+    margin-top: 15px;
+    width:50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 20px 2px;
 }

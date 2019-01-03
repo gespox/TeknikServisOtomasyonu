@@ -24,8 +24,6 @@ if(isset($_SESSION['uname'])){
             <?php include "contentmarka.php"; ?>
         </div>
     </div>
-    <!-- #container -->
-
     </body>
     </html>
     <?php

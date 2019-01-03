@@ -1,3 +1,4 @@
+<div id="servisekle">
 <table id="servis">
     <tr >
         <th>Must.Ad Soyad</th>
@@ -37,7 +38,7 @@
         }
 
         echo "<td><a href="."duzenleservis.php?id=".$row["id"]." <button class=\"buttonduzenle\" >Duzenle</button></a></td>";
-        echo "<td><a href="."silservis.php?id=".$row["id"]." <button class=\"buttonsil\" >Sil</button></a></td>";
+        echo "<td><a href="."silservis.php?id=".$row["id"]." <button onclick=\"return confirm('Silmek istiyor musun?'); \" class=\"buttonsil\" >Sil</button></a></td>";
 
         echo "<tr>";
     }
@@ -127,4 +128,5 @@
         }
     }
     ?>
+</div>
 </div>

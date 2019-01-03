@@ -1,6 +1,13 @@
 html,body {
     font-family: 'Open Sans';
 }
+#musteriekle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 #musteri {
     border-collapse: collapse;
     width: 100%;
@@ -44,15 +51,51 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
+.buttonduzenle{
+    background-color: #e7aa55;
+    color: white;
+    padding: 3px 3px;
+    margin:0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonsil{
+    background-color: #fa4847;
+    color: white;
+    padding: 3px 3px;
+    margin:0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.buttonsil:hover,.buttonduzenle:hover{
+    color: black;
+    opacity: 0.8;
+}
 input[type=submit]:hover {
     background-color: #304880;
 }
 
 #formmusteri {
     margin-top: 20px;
-    width:100%;
+    width:50%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+}
+#ortala{
+    margin: 0;
+    height: 100vh;
+    background: #aadad3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#formmusteriduzenle {
+    margin-top: 15px;
+    width:50%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 20px 2px;
 }

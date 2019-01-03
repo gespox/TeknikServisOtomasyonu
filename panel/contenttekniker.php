@@ -1,3 +1,4 @@
+<div id="ekipekle">
 <table id="ekip">
     <tr >
         <th>Kullanici Adi</th>
@@ -57,5 +58,5 @@
     }
     ?>
 </div>
-
+</div>
 

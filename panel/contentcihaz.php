@@ -1,3 +1,4 @@
+<div id="cihazekle">
 <table id="cihaz">
     <tr >
         <th>Cihaz</th>
@@ -62,7 +63,7 @@
         }
     }
     ?>
-
+</div>
 </div>
 
 

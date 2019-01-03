@@ -1,3 +1,4 @@
+<div id="musteriekle">
 <table id="musteri">
     <tr >
         <th>Ad</th>
@@ -5,6 +6,8 @@
         <th>Telefon</th>
         <th>E-Mail</th>
         <th>Adres</th>
+        <th>Duzenle</th>
+        <th>Sil</th>
     </tr>
     <?php
     require_once "../baglan.php";
@@ -16,6 +19,8 @@
         echo "<td>" . $row["telefon"] . "</td>";
         echo "<td>" . $row["mail"] . "</td>";
         echo "<td>" . $row["adres"] . "</td>";
+        echo "<td><a href="."duzenlemusteri.php?id=".$row["idmusteri"]." <button class=\"buttonduzenle\" >Duzenle</button></a></td>";
+        echo "<td><a href="."silmusteri.php?id=".$row["idmusteri"]." <button onclick=\"return confirm('Silmek istiyor musun?'); \" class=\"buttonsil\" >Sil</button></a></td>";
         echo "<tr>";
     }
     ?>
@@ -65,5 +70,5 @@
     }
     ?>
 </div>
-
+</div>
 
