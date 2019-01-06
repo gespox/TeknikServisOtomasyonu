@@ -20,7 +20,7 @@ $liste = $conn->query(" SELECT * FROM marka WHERE idmarka='$id'",
 foreach ($liste as $row1){ ?>
 <div id="ortala">
     <div id="formduzenlemarka"  >
-        <h3>Eklemek İsteğiniz Marka</h3>
+        <h3>Duzenlemek İsteğiniz Marka</h3>
 
         <form method="post">
             <label for="markaadi">Marka Adı</label>
